@@ -23,7 +23,7 @@ fun main(args: Array<String>) {
   }
 
   var i = 0
-  while (randoms[i] > 10 && i < randoms.size) {
+  while (i < randoms.size && randoms[i] > 10) {
     println(randoms[i])
     i++
   }
